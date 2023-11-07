@@ -1,8 +1,8 @@
-# Connected Grid Layout Animation
+# cerebrus6
 
 Some ideas for simple on-scroll animations for connected grid items.
 
-![Connected Grid Layout Animation](https://tympanus.net/codrops/wp-content/uploads/2023/08/ConnectedGrid_feat.jpg)
+![cerebrus6](https://tympanus.net/codrops/wp-content/uploads/2023/08/ConnectedGrid_feat.jpg)
 
 [Article on Codrops](https://tympanus.net/codrops/?p=73283)
 
